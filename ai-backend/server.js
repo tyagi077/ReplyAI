@@ -17,6 +17,11 @@ const limiter = rateLimit({
 });
 const aiCache = new NodeCache({ stdTTL: 3600 });
 
+app.get("/",(req,res)=>{
+    res.json({
+        "running":"yes"
+    })
+})
 app.post("/generate", limiter, async (req, res) => {
 
   try {
