@@ -111,6 +111,4 @@ Consider them when generating replies.
 
 });
 
-app.listen(3000, () => {
-  console.log("AI server running on port 3000");
-});
+module.exports = app;
