@@ -134,7 +134,7 @@ async function generateReplies(tweetText, images = []) {
 
   try {
 
-    const res = await fetch("http://localhost:3000/generate", {
+    const res = await fetch("https://reply-ai-zeta.vercel.app/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

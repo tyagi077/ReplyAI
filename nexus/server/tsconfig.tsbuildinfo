@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/controller/news.controller.ts","./src/middlewares/errorhandler.ts","./src/middlewares/upload.ts","./src/model/index.ts","./src/model/news.model.ts","./src/router/news.router.ts","./src/types/entities.types.ts","./src/types/requests.types.ts","./src/utils/apperrors.ts","./src/utils/catchasynchandler.ts","./src/utils/ipfs.ts"],"version":"5.9.3"}
